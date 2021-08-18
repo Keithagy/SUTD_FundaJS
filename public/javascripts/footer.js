@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-console.log('getCurrentYear', helpers.getCurrentYear());
+// console.log('getCurrentYear', helpers.getCurrentYear());
 /* DEMO: show how to update current year */
 
 // get the footer year element
@@ -9,7 +9,7 @@ const footerEl = document.querySelector('#footer-year');
 // update the content of the year element to result of helpers.getCurrentYear
 footerEl.innerHTML = 'the current year is ' + helpers.getCurrentYear();
 
-console.log('getCurrentDate', helpers.getCurrentDate());
+// console.log('getCurrentDate', helpers.getCurrentDate());
 /* EXERCISE: practice how to update current date */
 
 // TODO: get the footer today element
